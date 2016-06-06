@@ -1,0 +1,168 @@
+/*/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ @font-face {
+    font-family: 'Raleway-SemiBold';
+    src: url('Raleway-SemiBold/Raleway-SemiBold.eot');
+    src: url('Raleway-SemiBold/Raleway-SemiBold.eot?#iefix') format('embedded-opentype'),
+         url('Raleway-SemiBold/Raleway-SemiBold.woff') format('woff'),
+         url('Raleway-SemiBold/Raleway-SemiBold.ttf') format('truetype'),
+         url('Raleway-SemiBold/Raleway-SemiBold.svg#Raleway-SemiBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url('Raleway-Regular/Raleway-Regular.eot');
+    src: url('Raleway-Regular/Raleway-Regular.eot?#iefix') format('embedded-opentype'),
+         url('Raleway-Regular/Raleway-Regular.woff') format('woff'),
+         url('Raleway-Regular/Raleway-Regular.ttf') format('truetype'),
+         url('Raleway-Regular/Raleway-Regular.svg#Raleway-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'QUINB___';
+    src: url('QUINB___/QUINB___.eot');
+    src: url('QUINB___/QUINB___.eot?#iefix') format('embedded-opentype'),
+         url('QUINB___/QUINB___.woff') format('woff'),
+         url('QUINB___/QUINB___.ttf') format('truetype'),
+         url('QUINB___/QUINB___.svg#QUINB___') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media screen and (max-width: 550px) {
+header {
+    font-size: 2.5em;
+    padding-top: 7%;
+}
+.container {
+    width: 96%;
+    margin-left: 2%;
+}
+.container1, .container2 {
+    padding-left: 3%;
+}
+.action {
+    font-size: 1.1em;
+}
+.text-center {
+    font-size: 0.9em;
+}
+.texte1, .texte2, .contact {
+    font-size: 0.9em;
+}
+.texte1 {
+    width: 95%;
+}
+.texte2 {
+    width: 64%;
+}
+.texte3  {
+    display: block;
+    width: 90%;
+    padding-left: 1%;
+}
+.liens {
+    width: 78%;
+    padding: 2%;
+}
+.adresse, .createurs {
+    font-size: 0.8em;
+}
+.createurs {
+    margin-left: 5%;
+}
+.formulaire {
+    width: 78%;
+}
+.retour {
+    width: 32%;
+}
+}
+@media screen and (min-width: 551px) and (max-width: 768px) {
+.container {
+    width: 93%;
+    margin-left: 4%;
+}
+.container1, .container2 {
+    padding-left: 3%;
+}
+.action {
+    font-size: 1.1em;
+}
+.text-center {
+    font-size: 0.9em;
+}
+.texte1, .texte2, .contact {
+    font-size: 0.9em;
+}
+.texte1 {
+    width: 95%;
+}
+.texte2 {
+    width: 64%;
+}
+.texte3 {
+    display: block;
+    width: 85%;
+    padding-left: 4%;
+}
+.liens {
+    width: 73%;
+    padding: 3%;
+    margin-left: 10%;
+}
+.retour{
+    width: 64%;
+}
+.adresse, .createurs {
+    font-size: 0.8em;
+}
+.createurs {
+    margin-left: 5%;
+}
+
+	}
+
+@media screen and (min-width: 769px) and (max-width: 980px){
+.container {
+    width: 89%;
+    margin-left: 6%;
+}
+.container1, .container2 {
+    padding-left: 2%;
+}
+.texte1 {
+    width: 90%;
+}
+.texte2 {
+    width: 70%;
+}
+.texte3 {
+    display: block;
+    width: 85%;
+    padding-left: 4%;
+}
+.liens {
+    width: 76%;
+    padding: 2%;
+    margin-left: 9%;
+}
+}
+
+@media screen and (min-width: 980px) {
+	}	
